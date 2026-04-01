@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9e6;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #fbc02d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #f9a825;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo p {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.logo b {
+    display: block;
+    font-size: 24px;
+    color: #333;
+}
+
+.logo i {
+    font-size: 12px;
+    color: #555;
+    display: block;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.contacts {
+    text-align: right;
+}
+
+.contacts a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contacts i {
+    display: block;
+    font-size: 12px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.main-picture {
+    text-align: center;
+    margin: 0;
+}
+
+.main-picture img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.main {
+    display: flex;
+    padding: 30px 20px;
+    gap: 30px;
+}
+
+.main-text {
+    flex: 3;
+}
+
+.main-text h1 {
+    color: #f9a825;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fbc02d;
+    padding-bottom: 10px;
+}
+
+.main-text p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: justify;
+}
+
+.menu {
+    flex: 1;
+    background-color: #fff3cd;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #fbc02d;
+}
+
+.menu p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 8px;
+}
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    padding: 10px;
+    background-color: #fbc02d;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: #f9a825;
+}
+
+.menu a {
+    background-color: #f57f17;
+    color: white;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fbc02d;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
