@@ -2,28 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/styles.css">
     <title>Fry | Гарячо і швидко</title>
   </head>
   <body>
-  <header class="main-header">
-    <div class="container">
-      
-      <div class="logo-wrapper">
-        <img src="assets/images/potato-svgrepo-com.svg" alt="Logo" class="logo-img">
-        <div class="logo-text">
-          <span class="brand">Fry</span>
-          <span class="tagline">Гарячо & швидко</span>
-        </div>
+<header class="main-header">
+  <div class="container header-container">
+    <div class="logo-wrapper">
+      <img src="assets/images/potato-svgrepo-com.svg" class="logo-img">
+      <div class="logo-text">
+        <span class="brand">Fry</span>
+        <span class="tagline">Гарячо & швидко</span>
       </div>
-
-      <nav class="nav-menu">
-        <a href="#">Меню</a>
-        <a href="#">Про нас</a>
-        <a href="#" class="login-btn">Вхід</a>
-      </nav>
     </div>
-  </header>
+
+    <div class="burger-menu" id="burger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="nav-menu" id="nav-menu">
+      <a href="#">Меню</a>
+      <a href="#">Про нас</a>
+      <a href="#" class="login-btn">Вхід</a>
+    </nav>
+  </div>
+</header>
+  <div class="menu-overlay" id="menu-overlay"></div>
   <section class="hero">
   <div class="container hero-container">
     <div class="hero-content">
@@ -232,5 +239,6 @@
     </div>
   </div>
 </footer>
+  <script src="scripts/main.js"></script>
 </body>
 </html>
