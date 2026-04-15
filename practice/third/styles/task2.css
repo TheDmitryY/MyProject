@@ -1,0 +1,116 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        .header {
+            padding: 30px 40px;
+            border-bottom: 3px solid #ddd;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px 40px;
+        }
+
+        .blocks-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0;
+            border: 2px solid rgb(22, 236, 214);
+            background-color: #fff;
+        }
+
+        .block {
+            display: inline-block;
+            width: 50%;
+            height: 45vh;
+            padding: 25px;
+            border: 1px solid rgb(22, 236, 214);
+            background-color: #fff;
+            overflow-y: auto;
+        }
+
+        .block h2 {
+            font-size: 14px;
+            margin-bottom: 15px;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+
+        .block h2 span {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            border: 2px solid rgb(22, 236, 214);
+            border-radius: 50%;
+            color: rgb(22, 236, 214);
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 12px;
+        }
+
+        .block ul {
+            list-style: none;
+            font-size: 12px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .block li {
+            margin-bottom: 8px;
+            margin-left: 0;
+        }
+
+        .block li:before {
+            content: "• ";
+            color: rgb(22, 236, 214);
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .block {
+                width: 100%;
+                height: 50vh;
+            }
+
+            .header {
+                padding: 20px 30px;
+            }
+
+            .container {
+                padding: 20px 30px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .block {
+                width: 100%;
+                height: 60vh;
+                padding: 15px;
+            }
+
+            .block h2 {
+                font-size: 13px;
+            }
+
+            .block ul {
+                font-size: 11px;
+            }
+        }
