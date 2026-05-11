@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 4: Реєстрація</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Реєстрація користувача</h2>
+        <form id="registrationForm">
+            <fieldset>
+                <legend>Реєстраційні дані</legend>
+                <div class="form-group">
+                    <label for="username">Логін:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Персональні дані</legend>
+                <div class="form-group">
+                    <label for="fullname">Прізвище та ім'я:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">Місто:</label>
+                    <select id="city" name="city">
+                        <option value="kyiv">Київ</option>
+                        <option value="lviv">Львів</option>
+                        <option value="kharkiv">Харків</option>
+                        <option value="odesa">Одеса</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <button type="submit" id="submitBtn">Зареєструватися</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="task4.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 6: Відправка e-mail</title>
+    <link rel="stylesheet" href="task6.css">
+</head>
+<body>
+    <div class="email-container">
+        <h2>Надіслати листа</h2>
+        <form action="mailto:mankevychdima@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="subject">Тема:</label>
+                <input type="text" id="subject" name="subject" placeholder="Тема повідомлення">
+            </div>
+            <div class="form-group">
+                <label for="body">Повідомлення:</label>
+                <textarea id="body" name="body" rows="5" placeholder="Напишіть ваш текст тут..."></textarea>
+            </div>
+            <button type="submit">Відправити e-mail</button>
+        </form>
+    </div>
+</body>
+</html>

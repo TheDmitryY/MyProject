@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестування: ВИКЛЮЧАЮЧЕ АБО (Варіант 9)</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Перевірка знання таблиці істинності</h1>
+        <p>Оберіть правильну відповідь для логічного елемента <strong>ВИКЛЮЧАЮЧЕ АБО (XOR)</strong></p>
+        
+        <table id="truth-table">
+            <thead>
+                <tr>
+                    <th>Логічний вираз</th>
+                    <th colspan="2">Можливі відповіді</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-answer="0">
+                    <td>0 + 0 =</td>
+                    <td><button type="button" class="ans-btn" data-val="1">1</button></td>
+                    <td><button type="button" class="ans-btn" data-val="0">0</button></td>
+                </tr>
+                <tr data-answer="1">
+                    <td>0 + 1 =</td>
+                    <td><button type="button" class="ans-btn" data-val="1">1</button></td>
+                    <td><button type="button" class="ans-btn" data-val="0">0</button></td>
+                </tr>
+                <tr data-answer="1">
+                    <td>1 + 0 =</td>
+                    <td><button type="button" class="ans-btn" data-val="1">1</button></td>
+                    <td><button type="button" class="ans-btn" data-val="0">0</button></td>
+                </tr>
+                <tr data-answer="0">
+                    <td>0 * 1 =</td>
+                    <td><button type="button" class="ans-btn" data-val="1">1</button></td>
+                    <td><button type="button" class="ans-btn" data-val="0">0</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="controls">
+            <button id="check-btn">Наведіть сюди для перевірки</button>
+            <button id="reset-btn">Очистити</button>
+        </div>
+
+        <div id="result"></div>
+    </div>
+    <script src="task2.js"></script>
+</body>
+</html>
