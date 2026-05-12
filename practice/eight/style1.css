@@ -1,0 +1,76 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 40px;
+    line-height: 1.5;
+}
+
+.header-text {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    vertical-align: top;
+}
+
+th {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.designation {
+    width: 20%;
+    text-align: center;
+    font-weight: normal;
+}
+
+.characteristic {
+    width: 40%;
+}
+
+.value {
+    width: 40%;
+}
+
+.placeholder-row {
+    text-align: center;
+}
+
+.task-description {
+    margin-bottom: 20px;
+}
+
+.task-description ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.table-caption {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 0;
+    font-family: inherit;
+}

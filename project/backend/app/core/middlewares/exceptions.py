@@ -1,0 +1,2 @@
+class ExceptionDomain(Exception):
+    pass
