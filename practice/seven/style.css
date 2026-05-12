@@ -1,16 +1,13 @@
-/* Base styles override */
 body {
     font-family: 'Gilroy', sans-serif;
     color: #070707;
 }
 
-/* Fallback for Gilroy if not available */
 @font-face {
     font-family: 'Gilroy';
     src: local('Gilroy'), local('Arial');
 }
 
-/* Custom styles that Bootstrap doesn't cover by default */
 .lang-switch {
     transform: rotate(-90deg);
     transform-origin: right bottom;
@@ -33,7 +30,6 @@ body {
     color: #070707 !important;
 }
 
-/* Specific spacing for mobile lang switch */
 @media (max-width: 991px) {
     .lang-switch {
         transform: none;
